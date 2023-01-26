@@ -1,3 +1,3 @@
 # Kings-cup
 
-## This is for Final Project of CS50
+### This is for Final Project of CS50
