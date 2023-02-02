@@ -3,27 +3,36 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.css'
-import { Box, style } from '@mui/system'
-import { Typography } from '@mui/material'
+import { Box } from '@mui/system'
+import { Table } from './components/Table/table'
+import { Header} from './components/Title/title'
+import { StartButton } from './components/StartButton/startButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
+
+
 export default function Home() {
+  
   return (
-    <main>
-      <Box className={styles.app}>
-        <Typography variant='h1'>
-          <Box className={styles.h1}>Kings Cup</Box>
-        </Typography>
-        <Box className={styles.table}>
-            <Image
-             src="/card-back-Blue.png"
-             alt='トランプ裏面'
-             width={150}
-             height={300}
-             priority
-             />
-        </Box>
+    <main className={styles.app}>
+      <Box>
+        <Header/>
+        <Table/>
+        {/* <StartButton/> */}
+
+
+
+        
+
+          {/* 
+          <StatusDisplay>
+          <NumCards/>
+          <Who/>
+          <NumKings/> 
+          </StatusDisplay>
+        
+        {/* <Button/> */}
       </Box>
       
     </main>

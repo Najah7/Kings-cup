@@ -5,14 +5,7 @@
   height: 100%;
 }
 
-.h1 {
-  /* HACK:文字サイズのプロパティいいかんじに */
-  font-size: 10vw;
-  font-weight: bold;
-  margin-bottom: 0;
-  color: #f8f4e6;
-  margin-top: 30px;
-}
+
 
 .h2 {
   font-size: 24px;
@@ -20,15 +13,5 @@
   color: #f8f4e6;
 }
 
-.table {
-  width: 95%;
-  height: 600px;
-  background-color: #2e8b57;
-  border: 5px solid #595857;
-  border-radius: 5px;
-  margin: 20px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
