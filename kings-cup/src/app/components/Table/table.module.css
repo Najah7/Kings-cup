@@ -1,0 +1,16 @@
+.table {
+    width: 95%;
+    height: 600px;
+    background-color: #2e8b57;
+    border: 5px solid #595857;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    flex-flow: column;
+    
+    /* grid-template-areas: "cards player kings"
+                         "blank1 card blank2"
+                         "blank3 button blank3"; */
+  }
