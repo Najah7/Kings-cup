@@ -9,7 +9,7 @@ export const FirstView = () => {
 
     return (
         <>
-            <CrowbarKing></CrowbarKing>
+            <Card></Card>
         </>
     )
 }
