@@ -1,1 +1,422 @@
-self.__RSC_MANIFEST={"__ssr_module_mapping__":{"2092":{"":{"id":"56862","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"56862","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"56862","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"4622":{"":{"id":"14904","name":"","chunks":["700:700-26d54da3bb3738c8","931:app/page-022d289168de8534"],"async":false},"*":{"id":"14904","name":"*","chunks":["700:700-26d54da3bb3738c8","931:app/page-022d289168de8534"],"async":false},"default":{"id":"14904","name":"default","chunks":["700:700-26d54da3bb3738c8","931:app/page-022d289168de8534"],"async":false}},"7043":{"":{"id":"82030","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"82030","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"82030","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"7954":{"":{"id":"89446","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"89446","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"89446","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"9875":{"":{"id":"43258","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"43258","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"43258","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}}},"__edge_ssr_module_mapping__":{},"__entry_css_files__":{"/home/najah/kings_cup/src/app/page":["static/css/b4cdeef6fb77b3df.css"],"/home/najah/kings_cup/src/app/layout":["static/css/74d93cec8e9c227c.css"]},"/home/najah/kings_cup/node_modules/next/dist/client/components/app-router.js":{"":{"id":"7954","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"7954","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"7954","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"/home/najah/kings_cup/node_modules/next/dist/esm/client/components/app-router.js":{"":{"id":"7954","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"7954","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"7954","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"/home/najah/kings_cup/node_modules/next/dist/client/components/error-boundary.js":{"":{"id":"7043","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"7043","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"7043","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"/home/najah/kings_cup/node_modules/next/dist/esm/client/components/error-boundary.js":{"":{"id":"7043","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"7043","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"7043","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"/home/najah/kings_cup/node_modules/next/dist/client/components/layout-router.js":{"":{"id":"9875","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"9875","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"9875","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"/home/najah/kings_cup/node_modules/next/dist/esm/client/components/layout-router.js":{"":{"id":"9875","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"9875","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"9875","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"/home/najah/kings_cup/node_modules/next/dist/client/components/render-from-template-context.js":{"":{"id":"2092","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"2092","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"2092","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"/home/najah/kings_cup/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"":{"id":"2092","name":"","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"*":{"id":"2092","name":"*","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false},"default":{"id":"2092","name":"default","chunks":["272:webpack-895de2343200c547","17:17-932c8e8466340f3e","744:main-app-5a9c929bfbb80415"],"async":false}},"/home/najah/kings_cup/src/app/components/Card/card.module.css":{"default":{"id":"9561","name":"default","chunks":["static/css/b4cdeef6fb77b3df.css"]}},"/home/najah/kings_cup/src/app/components/Table/table.module.css":{"default":{"id":"7225","name":"default","chunks":["static/css/b4cdeef6fb77b3df.css"]}},"/home/najah/kings_cup/src/app/components/Title/title.module.css":{"default":{"id":"2705","name":"default","chunks":["static/css/b4cdeef6fb77b3df.css"]}},"/home/najah/kings_cup/src/app/page.module.css":{"default":{"id":"2677","name":"default","chunks":["static/css/b4cdeef6fb77b3df.css"]}},"/home/najah/kings_cup/src/app/page.tsx":{"":{"id":"4622","name":"","chunks":["700:700-26d54da3bb3738c8","931:app/page-022d289168de8534"],"async":false},"*":{"id":"4622","name":"*","chunks":["700:700-26d54da3bb3738c8","931:app/page-022d289168de8534"],"async":false},"default":{"id":"4622","name":"default","chunks":["700:700-26d54da3bb3738c8","931:app/page-022d289168de8534"],"async":false}},"/home/najah/kings_cup/src/app/globals.css":{"default":{"id":"5513","name":"default","chunks":["static/css/74d93cec8e9c227c.css"]}}}
+self.__RSC_MANIFEST={
+  "__ssr_module_mapping__": {
+    "(app-client)/./src/app/page.tsx": {
+      "": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "/home/najah/kings_cup/src/app/page": [
+      "static/css/app/page.css"
+    ],
+    "/home/najah/kings_cup/src/app/layout": [
+      "static/css/_app-client_src_app_globals_css.css"
+    ]
+  },
+  "/home/najah/kings_cup/src/app/components/Card/card.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
+  "/home/najah/kings_cup/src/app/components/Table/table.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
+  "/home/najah/kings_cup/src/app/components/Title/title.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
+  "/home/najah/kings_cup/src/app/page.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
+  "/home/najah/kings_cup/src/app/page.tsx": {
+    "": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/node_modules/next/dist/client/components/app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/node_modules/next/dist/esm/client/components/app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/node_modules/next/dist/client/components/error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/node_modules/next/dist/client/components/layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/home/najah/kings_cup/src/app/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_app_globals_css.css"
+      ]
+    }
+  }
+}
