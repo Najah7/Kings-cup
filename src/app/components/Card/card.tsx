@@ -28,7 +28,7 @@ export const Card = () => {
                     :
                         <div className={styles.back}>
                         <Image
-                        src="/card-back-Blue.png"
+                        src="/card-back.png"
                         alt='トランプ裏面'
                         width={150}
                         height={300}

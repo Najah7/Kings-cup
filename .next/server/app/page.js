@@ -464,7 +464,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 /***/ 24464:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 49746))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14904))
 
 /***/ }),
 
@@ -540,7 +540,7 @@ module.exports = createProxy("/home/najah/kings_cup/src/app/page.tsx");
 
 /***/ }),
 
-/***/ 49746:
+/***/ 14904:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -594,7 +594,7 @@ const Card = ()=>{
                 }) : /*#__PURE__*/ jsx_runtime_.jsx("div", {
                     className: (card_module_default()).back,
                     children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: "/card-back-Blue.png",
+                        src: "/card-back.png",
                         alt: "トランプ裏面",
                         width: 150,
                         height: 300,
@@ -608,15 +608,6 @@ const Card = ()=>{
     });
 };
 
-;// CONCATENATED MODULE: ./src/app/components/FirstView/firstView.tsx
-
-
-const FirstView = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(Card, {})
-    });
-};
-
 // EXTERNAL MODULE: ./src/app/components/Table/table.module.css
 var table_module = __webpack_require__(74577);
 var table_module_default = /*#__PURE__*/__webpack_require__.n(table_module);
@@ -624,12 +615,13 @@ var table_module_default = /*#__PURE__*/__webpack_require__.n(table_module);
 
 
 
+// import { FirstView } from '../FirstView/firstView'
 
 const Table = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ jsx_runtime_.jsx(system.Box, {
             className: (table_module_default()).table,
-            children: /*#__PURE__*/ jsx_runtime_.jsx(FirstView, {})
+            children: /*#__PURE__*/ jsx_runtime_.jsx(Card, {})
         })
     });
 };

@@ -1,5 +1,6 @@
+import { Card } from '../Card/card'
 import { Box } from '@mui/system'
-import { FirstView } from '../FirstView/firstView'
+// import { FirstView } from '../FirstView/firstView'
 import styles from './table.module.css'
 
 export const Table = () => {
@@ -7,7 +8,8 @@ export const Table = () => {
     return (
         <>        
         <Box className={styles.table}>
-            <FirstView></FirstView>
+            {/* <FirstView></FirstView> */}
+            <Card></Card>
         </Box>
         </>
     )
