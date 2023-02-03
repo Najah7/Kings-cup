@@ -308,14 +308,26 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
-/***/ 84315:
+/***/ 21268:
 /***/ ((module) => {
 
 // Exports
 module.exports = {
-	"card": "king_card__8OGep",
-	"inner": "king_inner__yVL3r",
-	"img": "king_img__96Gyw"
+	"card": "card_card__e88QN",
+	"inner": "card_inner__4Vx6_",
+	"front": "card_front__z9yuT",
+	"back": "card_back__UyBYV",
+	"img": "card_img__EZi4H",
+	"shuffle-left": "card_shuffle-left__Xh77g",
+	"shuffle-right": "card_shuffle-right__wAB2Z",
+	"fly-in": "card_fly-in___teB4",
+	"card-inner": "card_card-inner__kW36S",
+	"flip-it": "card_flip-it__EMoEq",
+	"card-container": "card_card-container__HsQrO",
+	"current-status": "card_current-status__2sLxq",
+	"game-play-button-container": "card_game-play-button-container__IKEJI",
+	"play-game": "card_play-game__1qJID",
+	"header-img": "card_header-img__dRRpw"
 };
 
 
@@ -452,7 +464,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 /***/ 24464:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 99859))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 49746))
 
 /***/ }),
 
@@ -528,7 +540,7 @@ module.exports = createProxy("/home/najah/kings_cup/src/app/page.tsx");
 
 /***/ }),
 
-/***/ 99859:
+/***/ 49746:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -550,39 +562,48 @@ var system = __webpack_require__(47447);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(48421);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./src/app/components/Kings/King/king.module.css
-var king_module = __webpack_require__(84315);
-var king_module_default = /*#__PURE__*/__webpack_require__.n(king_module);
-;// CONCATENATED MODULE: ./src/app/components/Kings/King/king.tsx
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(18038);
+// EXTERNAL MODULE: ./src/app/components/Card/card.module.css
+var card_module = __webpack_require__(21268);
+var card_module_default = /*#__PURE__*/__webpack_require__.n(card_module);
+;// CONCATENATED MODULE: ./src/app/components/Card/card.tsx
 
 
 
-const King = (props)=>{
+
+const Card = ()=>{
+    const [isFront, setIsFront] = (0,react_.useState)(false);
+    const ClickHandler = ()=>setIsFront((prevState)=>!prevState);
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: (king_module_default()).card,
+            className: (card_module_default()).card,
             children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (king_module_default()).inner,
-                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: props.url,
-                    alt: "表面",
-                    width: 150,
-                    height: 300,
-                    priority: true,
-                    className: (king_module_default()).img
+                className: (card_module_default()).inner,
+                children: isFront ? /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (card_module_default()).front,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        src: "/test-card.png",
+                        alt: "表面",
+                        width: 150,
+                        height: 300,
+                        priority: true,
+                        className: (card_module_default()).img,
+                        onClick: ClickHandler
+                    })
+                }) : /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: (card_module_default()).back,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        src: "/card-back-Blue.png",
+                        alt: "トランプ裏面",
+                        width: 150,
+                        height: 300,
+                        priority: true,
+                        className: (card_module_default()).img,
+                        onClick: ClickHandler
+                    })
                 })
             })
-        })
-    });
-};
-
-;// CONCATENATED MODULE: ./src/app/components/Kings/CrowbarKing/crowbarKing.tsx
-
-
-const CrowbarKing = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(King, {
-            url: "/card-back-Blue.png"
         })
     });
 };
@@ -592,7 +613,7 @@ const CrowbarKing = ()=>{
 
 const FirstView = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(CrowbarKing, {})
+        children: /*#__PURE__*/ jsx_runtime_.jsx(Card, {})
     });
 };
 
