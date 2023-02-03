@@ -1,5 +1,4 @@
 import { Box } from '@mui/material'
-import { style } from '@mui/system'
 import styles from './startButton.module.css'
 
 export const StartButton = () => {

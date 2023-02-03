@@ -1,8 +1,5 @@
 import { Box } from '@mui/system'
-import { Card } from '../Card/card'
-import { Counter } from '../Counter/Counter'
-import { StartButton } from '../StartButton/startButton'
-import { StatusDisplay } from '../StatusDisplay/StatusDisplay'
+import { FirstView } from '../FirstView/firstView'
 import styles from './table.module.css'
 
 export const Table = () => {
@@ -10,10 +7,9 @@ export const Table = () => {
     return (
         <>        
         <Box className={styles.table}>
-            <StatusDisplay></StatusDisplay>
-          <Card/>
-          <StartButton></StartButton>
+            <FirstView></FirstView>
         </Box>
         </>
     )
 }
+

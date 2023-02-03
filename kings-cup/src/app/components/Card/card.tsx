@@ -1,6 +1,5 @@
-import { style } from '@mui/system'
 import Image from 'next/image'
-import { useCallback, useEffect, useState } from 'react'
+import { useState } from 'react'
 import styles from './card.module.css'
 
 export const Card = () => {
