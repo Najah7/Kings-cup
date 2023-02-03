@@ -16,7 +16,7 @@ export const Card = () => {
                     {isFront?
                         <div className={styles.front}>
                         <Image
-                        src="/AceSpades.png"
+                        src="/test-card.png"
                         alt='表面'
                         width={150}
                         height={300}
