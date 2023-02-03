@@ -5,8 +5,9 @@ import { Inter } from '@next/font/google'
 import styles from './page.module.css'
 import { Box } from '@mui/system'
 import { Table } from './components/Table/table'
-import { Header} from './components/Title/title'
+import { Title} from './components/Title/title'
 import { StartButton } from './components/StartButton/startButton'
+import { FirstView } from './components/FirstView/firstView'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,22 +18,8 @@ export default function Home() {
   return (
     <main className={styles.app}>
       <Box>
-        <Header/>
+        <Title/>
         <Table/>
-        {/* <StartButton/> */}
-
-
-
-        
-
-          {/* 
-          <StatusDisplay>
-          <NumCards/>
-          <Who/>
-          <NumKings/> 
-          </StatusDisplay>
-        
-        {/* <Button/> */}
       </Box>
       
     </main>

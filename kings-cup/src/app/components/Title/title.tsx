@@ -2,7 +2,7 @@ import { Typography } from '@mui/material'
 import { Box } from '@mui/material'
 import styles from './title.module.css'
 
-export const Header = () => {
+export const Title = () => {
 
     return (
         <>
