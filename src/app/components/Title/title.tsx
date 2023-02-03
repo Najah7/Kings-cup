@@ -7,7 +7,7 @@ export const Title = () => {
     return (
         <>
         <Typography variant='h1'>
-          <Box className={styles.h1}>Kings Cup</Box>
+          <Box className={styles.h1}>👑Kings Cup🍻</Box>
         </Typography>
         </>
     )
