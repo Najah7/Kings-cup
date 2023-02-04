@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.emoji{
+    /* display: block; */
+    position: relative;
+    bottom: 50px;
+    font-size: 250px;
+    /* height: 500px; */
+    /* width: 500px; */
+}
+
+.discription{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    color: white;
+    bottom: 50px;
+}
