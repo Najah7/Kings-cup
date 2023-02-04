@@ -1,10 +1,10 @@
 import { King } from "../King/king"
 
-export const HeartKing = () => {
+export const HeartKing = (props: any) => {
 
     return (
         <>
-        <King url='/card-back-Blue.png'></King>
+        <King url='/Cards/heart13.png' isFly={props.isFly}></King>
         </>
     )
 }
