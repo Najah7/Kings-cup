@@ -1,17 +1,19 @@
+import SelectInput from '@mui/material/Select/SelectInput'
 import Image from 'next/image'
 import { useState } from 'react'
 import styles from './card.module.css'
 
-export const Card = () => {
+export const Card = (props: any) => {
 
     const [isFront, setIsFront] = useState(false)
 
     const ClickHandler = () => setIsFront((prevState) => !prevState)
 
 
+
     return (
         <>
-            <div className={styles.card}>
+            <div className={props.isFly?styles.fly:styles.card}>
                 <div className={styles.inner}>
                     {isFront?
                         <div className={styles.front}>
