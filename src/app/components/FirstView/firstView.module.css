@@ -1,0 +1,47 @@
+.container{
+    position: relative;
+    height: 100%;
+
+    /* NOTE:後でSass使って変数を使う？ */
+    width: calc(270 * 2 + 100);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "a b"
+                         "c d";
+    /* border: 1px solid black; */
+    /* transform: translateY(-1000px) translateX(-600px) rotate(45deg); */
+}
+
+.posA{
+    grid-area: a;
+    /* border: 1px solid black; */
+    background-color: gray;
+    
+}
+
+.posB{
+    grid-area: b;
+    /* border: 1px solid black; */
+    background-color: goldenrod;
+}
+
+.posC{
+    grid-area: c;
+    /* border: 1px solid black; */
+    background-color: rosybrown;
+}
+
+.posD{
+    grid-area: d;
+    /* border: 1px solid black; */
+    background-color: darkcyan;
+
+}
+
+.posA, .posB, .posC, .posD{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
