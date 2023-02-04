@@ -4,7 +4,7 @@ import styles from './king.module.css'
 export const King = (props: any) => {
     return (
         <>
-            <div className={styles.card}>
+            <div className={props.isFly?styles.fly:styles.card}>
                 <div className={styles.inner}>
                     <Image
                     src={props.url}
