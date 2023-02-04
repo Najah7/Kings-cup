@@ -140,7 +140,16 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_src_app_globals_css.css"
     ]
   },
-  "/home/najah/kings_cup/src/app/components/Card/card.module.css": {
+  "/home/najah/kings_cup/src/app/components/FirstView/firstView.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
+  "/home/najah/kings_cup/src/app/components/Kings/King/king.module.css": {
     "default": {
       "id": "null",
       "name": "default",

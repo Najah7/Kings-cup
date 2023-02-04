@@ -1,25 +1,7 @@
-/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/app/components/Card/card.module.css ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************/
-
-
-    /* --badge-bg-color: darkgrey;
-    --primary-color: black;
-    --secondary-color: #ffffff; */
-
-/* .container{
-    position: relative;
-    height: 100%;
-    width: calc(157px * (4 / 2) + 100px);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "a b"
-                         "c d";
-    /* border: 1px solid black; */
-/* } */ 
-
-.card_card__e88QN{
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/app/components/Kings/King/king.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.king_card__8OGep{
     /* position:absolute; */
     height: 220px;
     width: 148px;
@@ -31,74 +13,86 @@
     margin-top: 40px;
 }
 
-.card_inner__4Vx6_{
+.king_inner__yVL3r{
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-}
 
-.card_front__z9yuT, .card_back__UyBYV{
+    /* front */
     position: absolute;
     width: 100%;
     height: 100%;
-    /* -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; */
-
 }
 
-.card_img__EZi4H{
+
+
+.king_img__96Gyw{
     height: 100%;
 }
 
-.card_back__UyBYV{
-    transform: rotateY(180deg);
-}
-
-.card_card__e88QN.card_shuffle-left__Xh77g{
-    transform: translateX(300px) translateY(40px);
-}
-
-.card_card__e88QN.card_shuffle-right__wAB2Z{
-    transform: translateX(-350px) translateY(-40px);
-}
-
-.card_card__e88QN.card_fly-in___teB4{
+.king_fly__gPda9{
+    height: 220px;
+    width: 148px;
+    perspective: 1000px;
+    cursor: pointer;
+    transition: transform 0.6s ease-in-out;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 40px;
     transform: translateY(-1000px) translateX(-600px) rotate(45deg);
 }
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/app/components/FirstView/firstView.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.firstView_container__KxEEd{
+    position: relative;
+    height: 100%;
 
-.card_card-inner__kW36S.card_flip-it__EMoEq{
-    transform: rotateY(180deg);
+    /* NOTE:後でSass使って変数を使う？ */
+    width: calc(270 * 2 + 100);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "a b"
+                         "c d";
+    /* border: 1px solid black; */
+    /* transform: translateY(-1000px) translateX(-600px) rotate(45deg); */
 }
 
-@media screen and (max-width:600px) {
-    .card_card__e88QN{
-        width: 120px;
-        height: 168px;
-    }
-    .card_card-container__HsQrO{
-        width: calc(120px * (4/2) + 50px);
-    }
-    /* main{
-        height: 50%;
-    } */
-    .card_current-status__2sLxq{
-        font-size: 1.2rem;
-    }
-    .card_game-play-button-container__IKEJI{
-        width: 120px;
-        height: 40px;
-    }
-    .card_play-game__1qJID{
-        padding: 6px 8px;
-        font-size: 12px;
-        min-height: 40px;
-    }
-    .card_header-img__dRRpw{
-        height: 55px;  
-    }
+.firstView_posA__Fy7GY{
+    grid-area: a;
+    /* border: 1px solid black; */
+    background-color: gray;
+    
+}
+
+.firstView_posB__90Gn3{
+    grid-area: b;
+    /* border: 1px solid black; */
+    background-color: goldenrod;
+}
+
+.firstView_posC__5XV8h{
+    grid-area: c;
+    /* border: 1px solid black; */
+    background-color: rosybrown;
+}
+
+.firstView_posD__l80sT{
+    grid-area: d;
+    /* border: 1px solid black; */
+    background-color: darkcyan;
+
+}
+
+.firstView_posA__Fy7GY, .firstView_posB__90Gn3, .firstView_posC__5XV8h, .firstView_posD__l80sT{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 /*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/app/components/Table/table.module.css ***!
