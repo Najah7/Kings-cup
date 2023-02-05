@@ -42,7 +42,7 @@
   
   .start:hover {
     color: #fff;
-    background-color: blue;
+    background-color: #6f4b3e;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }

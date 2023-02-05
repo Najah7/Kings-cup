@@ -16,27 +16,31 @@
 
 .posA{
     grid-area: a;
+    margin: 0px 20px;
     /* border: 1px solid black; */
-    background-color: gray;
+    /* background-color: gray; */
     
 }
 
 .posB{
     grid-area: b;
+    margin: 0px 20px;
     /* border: 1px solid black; */
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
 }
 
 .posC{
     grid-area: c;
+    margin: 0px 20px;
     /* border: 1px solid black; */
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
 }
 
 .posD{
     grid-area: d;
+    margin: 0px 20px;
     /* border: 1px solid black; */
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
 
 }
 

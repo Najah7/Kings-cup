@@ -42,6 +42,7 @@ export const FirstView = () => {
         {/* <PlayerInput/> */}
 
         
+        <StartButton/>
 
         <div className={styles.container}>
             <div className={styles.posA}>
