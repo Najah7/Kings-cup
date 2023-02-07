@@ -1,22 +1,22 @@
 import { Grid } from "@mui/material"
-import { CardCounter } from "../CardCounter/CardCounter"
-import { KingCounter } from "../KingCounter/KingCounter"
+import { CardCounter } from "../Counter/CardCounter/CardCounter"
+import { KingCounter } from "../Counter/KingCounter/KingCounter"
 import { Player } from "../Player/player"
 
 
-export const StatusDisplay = () => {
+export const StatusDisplay = (props: any) => {
 
     return (
         <>
         <Grid container spacing={2}>
             <Grid xs={4}>
-                <CardCounter/>
+                <CardCounter numCards={props.numCards}/>
             </Grid>
             <Grid xs={4}>
                 <Player name='tuser'/>
             </Grid>
             <Grid xs={4}>
-                <KingCounter/>
+                <KingCounter numKings={props.numKings}/>
             </Grid>
         </Grid>
         
