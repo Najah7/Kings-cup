@@ -1,5 +1,7 @@
 import styles from './Counter.module.css'
 
+// HACK:名前
+
 // エラーを非表示にするためのany型
 export const Counter = (props:any) => {
     
