@@ -10,7 +10,7 @@ import { TIMEOUT } from "dns";
 import { Button } from "../Button/SimpleButton/button"
 
 
-export default function GameView(props){
+export default function GameView(props:any){
 
     const [cards, setCards] = useState(CARDS)
 
@@ -90,7 +90,7 @@ export default function GameView(props){
     
     
 
-    const getUrl = (cards) => {
+    const getUrl = (cards:any) => {
 
         if (cards[RandomNumRef.current]['num'] == 0) return `/Cards/${cards[RandomNumRef.current]['type']}.png`
 

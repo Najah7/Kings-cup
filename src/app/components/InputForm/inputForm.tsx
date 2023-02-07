@@ -2,10 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useState } from "react";
 
-export const InputForm = ({ playerList, setPlayerList }) => {
+export const InputForm = ({ playerList, setPlayerList }: any) => {
   const [inputText, setInputText] = useState("");
 
-  const addPlayer = (e) => {
+  const addPlayer = (e:any) => {
     e.preventDefault();
     if (inputText === "") {
       return;
@@ -24,7 +24,7 @@ export const InputForm = ({ playerList, setPlayerList }) => {
     setInputText("");
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     setInputText(e.target.value);
   };
 
