@@ -11,7 +11,7 @@ import { GameInfo } from '@/pages/_app';
 import { UpdateToNextIndex } from 'helper/game';
 
 // NOTE: Static Renderingの値（message）
-const DiamondCard = ({card}) => {
+const JokerCard = ({card}) => {
 
     // ゲーム情報を取得（コンテキスから）
     const gameInfo = useContext(GameInfo)
@@ -43,20 +43,20 @@ const DiamondCard = ({card}) => {
         <>
             <StatusDisplay numKings={numKings} numCards={numCards} player={player} />
             <Card path={card.image}/>
-            <LinkButton path={`/game/diamond/${num}/description`} text='Description' />
+            <LinkButton path={`/game/joker/${num}/description`} text='Description' />
         </>
     )
 
 }
 
-export default DiamondCard
+export default JokerCard
 
 // NOTE:自分解釈ではgetStaticPaths関数で、この階層にできるページ数を定義する(引数で返す)ことによってプリレンダリングを実現している。
 export async function getStaticPaths() {
     const { cards } = await import('/data/cards.json')
-    const diamondCards = cards.filter(card => card.mark == 'diamond')
+    const jokerCards = cards.filter(card => card.mark == 'joker')
 
-    const allPaths = diamondCards.map(card => {
+    const allPaths = jokerCards.map(card => {
         return {
             params: {
                 num: card.num.toString()
@@ -86,10 +86,10 @@ export async function getStaticProps(context) {
     const { cards } = await import('/data/cards.json')
 
     // クローバだけに絞り込み
-    const diamondCards = cards.filter(card => card.mark == 'diamond')
+    const jokerCards = cards.filter(card => card.mark == 'joker')
 
     // パラメータの数字だけに絞り込み
-    const card = diamondCards.find(card => card.num == num)
+    const card = jokerCards.find(card => card.num == num)
 
     // ページ内で使えるようにreturn
     return {

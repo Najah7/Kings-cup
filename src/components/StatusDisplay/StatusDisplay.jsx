@@ -13,7 +13,7 @@ export const StatusDisplay = (props) => {
                 <CardCounter numCards={props.numCards}/>
             </Grid>
             <Grid xs={4}>
-                <Player name='playing'/>
+                <Player name={props.player}/>
             </Grid>
             <Grid xs={4}>
                 <KingCounter numKings={props.numKings}/>

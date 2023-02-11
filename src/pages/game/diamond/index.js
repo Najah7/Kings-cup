@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 const Game = ({cards}) => {
     
 
-    const diamondCards = cards.filter(card => card['type'] == 'diamond')
+    const diamondCards = cards.filter(card => card['mark'] == 'diamond')
 
     console.log(diamondCards)
 
@@ -15,8 +15,8 @@ const Game = ({cards}) => {
             {diamondCards.map(card => {
                 return (
                     <>
-                        <Image src={card['path']} width={100} height={100}></Image>
-                        <p>type: {card['type']}</p>
+                        <Image src={card['image']} width={100} height={100}></Image>
+                        <p>mark: {card['mark']}</p>
                         <p>Number: {card['num']}</p>
                         <p>emoji: {card['emoji']}</p>
                     </>
