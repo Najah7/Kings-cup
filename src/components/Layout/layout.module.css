@@ -1,0 +1,21 @@
+
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  /* 勝手に作成されるidが__nextのdivの消し方がわからず対策としてのbottom */
+  /* position: relative;
+  bottom: 30px; */
+}
+
+
+
+.h2 {
+  font-size: 24px;
+  width: 100%;
+  margin-top: 0;
+  color: #f8f4e6;
+}
+
+
+
