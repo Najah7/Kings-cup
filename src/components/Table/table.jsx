@@ -1,16 +1,14 @@
 import { Box } from '@mui/system'
 import styles from './table.module.css'
-import GameView from '../GameView/gameView'
+// import GameView from '../GameView/gameView'
 
 
-export const Table = () => {
+export const Table = ({children}) => {
 
     return (
         <>        
         <Box className={styles.table}>
-            <GameView/>
-            {/* <Discription emoji='😊' discription='test'/> */}
-            {/* <PlayerPage/> */}
+            {children}
         </Box>
         </>
     )

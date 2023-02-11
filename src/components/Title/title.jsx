@@ -1,13 +1,13 @@
-import { Typography } from '@mui/material'
-import { Box } from '@mui/material'
+// import { Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import styles from './title.module.css'
 
 export const Title = () => {
 
     return (
         <>
-        <Typography variant='h1'>
-          <Box className={styles.h1}>👑Kings Cup🍻</Box>
+        <Typography variant='h2' className={styles.h1}>
+          👑Kings Cup🍻
         </Typography>
         </>
     )
