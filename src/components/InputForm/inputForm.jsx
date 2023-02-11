@@ -1,6 +1,8 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Input } from "@mui/material";
 import React from "react";
 import { useState } from "react";
+
 
 export const InputForm = ({ playerList, setPlayerList }) => {
   const [inputText, setInputText] = useState("");
@@ -10,28 +12,24 @@ export const InputForm = ({ playerList, setPlayerList }) => {
     if (inputText === "") {
       return;
     }
-    // console.log("add task");
 
-    /* タスクを追加する。 */
+    /* プレイヤーを追加する。 */
     setPlayerList([
       ...playerList,
-      {
-        id: playerList.length,
-        text: inputText,
-      },
+      inputText,
     ]);
     
     setInputText("");
   };
 
-  const handleChange = (e:any) => {
+  const handleChange = (e) => {
     setInputText(e.target.value);
   };
 
   return (
     <div className="inputForm">
       <form onSubmit={addPlayer}>
-        <input type="text" onChange={handleChange} value={inputText} />
+      <Input placeholder="Type player name..." onChange={handleChange} value={inputText} variant='solid' size='lg' color='error' />
         <button onClick={addPlayer}>
         ➕
         </button>
