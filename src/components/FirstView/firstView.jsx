@@ -1,4 +1,4 @@
-import { StartButton } from "../Button/StartButton/startButton"
+import { LinkButton, StartButton } from "../Button/linkButton/linkButton"
 import { CrowbarKing } from "../Kings/CrowbarKing/crowbarKing"
 import styles from './firstView.module.css'
 import { useState } from "react"
@@ -7,7 +7,6 @@ import { HeartKing } from "../Kings/HeartKing/heartKing"
 import { SpadeKing } from "../Kings/SpadeKing/spadeKing"
 
 export const FirstView = () => {
-
 
     const [isFlyA, setIsFlyA] = useState(false)
     const [isFlyB, setIsFlyB] = useState(false)
@@ -29,7 +28,7 @@ export const FirstView = () => {
 
     return (
         <div className={styles.wrapper}>
-            <StartButton/>
+            <LinkButton text='Start' path='/players'/>
             <div className={styles.container}>
                 <div className={styles.posA}>
                     <CrowbarKing isFlay={isFlyA}/>

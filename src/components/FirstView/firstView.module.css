@@ -21,18 +21,18 @@
 }
 
 .posA{
-    position: relative;
+    /* position: relative; */
     grid-area: a;
     margin: 0px 20px;
-    left: 5vw;
+    /* left: 5vw; */
     /* border: 1px solid black; */
     /* background-color: gray; */
     
 }
 
 .posB{
-    position: relative;
-    right: 5vw;
+    /* position: relative; */
+    /* right: 5vw; */
     grid-area: b;
     margin: 0px 20px;
     /* border: 1px solid black; */
@@ -40,8 +40,8 @@
 }
 
 .posC{
-    position: relative;
-    left: 5vw;
+    /* position: relative; */
+    /* left: 5vw; */
     bottom: 5vw;
     grid-area: c;
     margin: 0px 20px;
@@ -50,8 +50,8 @@
 }
 
 .posD{
-    position: relative;
-    right: 5vw;
+    /* position: relative; */
+    /* right: 5vw; */
     bottom: 5vw;
     grid-area: d;
     margin: 0px 20px;
