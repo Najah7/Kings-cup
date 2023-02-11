@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { NextButton } from "../Button/NextButton/nextButton";
-import { Discription } from "../Discription/discription";
+import { Discription } from "../Description/description";
 import { Game } from "../Game/game";
 import {CARDS} from "../../../data/rules"
 import styles from "./gameView.module.css"
@@ -13,28 +13,28 @@ import Link from "next/link";
 
 export default function GameView(props){
 
-    const [cards, setCards] = useState(CARDS)
+    // const [cards, setCards] = useState(CARDS)
 
-    const generateRandomNum = () => {
-        const randomNum = Math.floor(Math.random() * cards.length)
+    // const generateRandomNum = () => {
+    //     const randomNum = Math.floor(Math.random() * cards.length)
         
-        return randomNum
-    }
+    //     return randomNum
+    // }
 
-    const PLAYERS = ['tuser1', 'tuser2', 'tuser3', 'tuser4']
+    // const PLAYERS = ['tuser1', 'tuser2', 'tuser3', 'tuser4']
 
-    const [isGaming, setIsGaming] = useState(true)
+    // const [isGaming, setIsGaming] = useState(true)
     // const random = generateRandomNum()
     // HACK:どうしても最初のカードのバグが直せずに、応急処置として、初期値を2にした（２には意味はない、しかし、本来使いたい、ランダムな数字だとバグが発生する）
-    const [randomNum, setRandomNum] = useState(2)
+    // const [randomNum, setRandomNum] = useState(2)
     // const [currentCard, setCurrentCard] = useState(cards[randomNum])
     const [numCards, setNumCards] = useState(54)
     const [numKings, setNumKings] = useState(0)
 
 
 
-    const RandomNumRef = useRef(randomNum)
-    RandomNumRef.current = randomNum
+    // const RandomNumRef = useRef(randomNum)
+    // RandomNumRef.current = randomNum
     
     // useEffect(() => {
     //     const timerId = setTimeout(() => {
@@ -42,38 +42,38 @@ export default function GameView(props){
     //     }, 2000)
     // })
 
-    const delete_card = (num: number) => {
-        setCards((prevState) => {
-            prevState.splice(num, 1)
-            return prevState
-        })
-    }
+    // const delete_card = (num) => {
+    //     setCards((prevState) => {
+    //         prevState.splice(num, 1)
+    //         return prevState
+    //     })
+    // }
     
-    const nextclickHandler = () => {
+    // const nextclickHandler = () => {
         
-        if (numKings == 4){
-            // 終了ページへ
-        } 
+    //     if (numKings == 4){
+    //         // 終了ページへ
+    //     } 
 
-        if (numCards == 0){
-            // 終了ページへ
-        }
+    //     if (numCards == 0){
+    //         // 終了ページへ
+    //     }
 
-        delete_card(randomNum)
+    //     delete_card(randomNum)
         
-        setRandomNum(generateRandomNum)
+    //     setRandomNum(generateRandomNum)
         
-        setNumCards(prevState => prevState - 1)
-        setIsGaming(prevState => !prevState)
-    }
+    //     setNumCards(prevState => prevState - 1)
+    //     setIsGaming(prevState => !prevState)
+    // }
 
-    const discriptionClickHandler = () =>{
+    // const discriptionClickHandler = () =>{
         
-        setIsGaming(prevState => !prevState)
-        if(cards[randomNum]['num'] == 13) {
-            setNumKings(prevState => prevState + 1);
-        }
-    }
+    //     setIsGaming(prevState => !prevState)
+    //     if(cards[randomNum]['num'] == 13) {
+    //         setNumKings(prevState => prevState + 1);
+    //     }
+    // }
 
 
     
@@ -89,13 +89,13 @@ export default function GameView(props){
     
     
 
-    const getUrl = (cards:any) => {
+    // const getUrl = (cards:any) => {
 
-        if (cards[RandomNumRef.current]['num'] == 0) return `/Cards/${cards[RandomNumRef.current]['type']}.png`
+    //     if (cards[RandomNumRef.current]['num'] == 0) return `/Cards/${cards[RandomNumRef.current]['type']}.png`
 
-        return `/Cards/${cards[RandomNumRef.current]['type']}${cards[RandomNumRef.current]['num']}.png`
+    //     return `/Cards/${cards[RandomNumRef.current]['type']}${cards[RandomNumRef.current]['num']}.png`
 
-    }
+    // }
 
     // {`/Cards/${cards[randomNum]['type']}${cards[randomNum]['num']}.png`}
 
@@ -104,7 +104,7 @@ export default function GameView(props){
             { isGaming?
             <>
                 <StatusDisplay numKings={numKings} numCards={numCards}/>
-                <Card img_url={getUrl(cards)}/>
+                <Card path={}/>
                 <Button text='Discription' onClick={discriptionClickHandler}/>
                 
                 
