@@ -1,9 +1,7 @@
 import { Inter } from '@next/font/google'
-import { Layout } from '../components/Layout/layout'
 import { FirstView } from '../components/FirstView/firstView'
 import { useContext, useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { getRandomNumWithIn } from 'helper/game'
 import {GameInfo} from './_app'
 
 const inter = Inter({ subsets: ['latin'] })

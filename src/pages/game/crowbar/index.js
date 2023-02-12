@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 // NOTE: Static Renderingの値（message）
 const Crowbar = ({cards}) => {

@@ -1,8 +1,5 @@
 import { Description } from '@/components/Description/description';
-import { Game } from '@/components/Game/game';
-import { Layout } from '@/components/Layout/layout';
 import { GameInfo } from '@/pages/_app';
-import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useContext, useEffect } from 'react';
 import { getRandomNumWithIn } from 'helper/game';

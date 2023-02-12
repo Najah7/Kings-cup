@@ -1,11 +1,7 @@
-import Link from 'next/link'
-import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { Layout } from '../../../../components/Layout/layout';
 import { useContext, useEffect, useState } from 'react';
 import { Card } from '../../../../components/Card/card';
 import { StatusDisplay } from '../../../../components/StatusDisplay/StatusDisplay';
-import { Button } from '../../../../components/Button/SimpleButton/button';
 import { LinkButton } from '@/components/Button/linkButton/linkButton';
 import { GameInfo } from '@/pages/_app';
 import { UpdateToNextIndex } from 'helper/game';

@@ -1,8 +1,4 @@
-import { Layout } from '@/components/Layout/layout'
-import { PlayerPage } from '@/components/PlayerPage/playerPage'
-import { getMenuItemUnstyledUtilityClass } from '@mui/base';
 import { getRandomNumWithIn } from 'helper/game';
-import { useRouter } from 'next/router';
 import React, { useContext, useEffect } from 'react'
 import { useState } from "react";
 import { LinkButton, StartButton } from "../components/Button/linkButton/linkButton";
