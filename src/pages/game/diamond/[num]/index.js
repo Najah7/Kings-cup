@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useContext, useEffect, useState } from 'react';
-import { Card } from '../../../../components/Card/card';
-import { StatusDisplay } from '../../../../components/StatusDisplay/StatusDisplay';
+import { Card } from '@/components/Card/card';
+import { StatusDisplay } from '@/components/StatusDisplay/StatusDisplay';
 import { LinkButton } from '@/components/Button/linkButton/linkButton';
 import { GameInfo } from '@/pages/_app';
 import { UpdateToNextIndex } from 'helper/game';
