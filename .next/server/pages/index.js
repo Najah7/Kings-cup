@@ -93,8 +93,6 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./src/components/Layout/layout.jsx + 2 modules
-var layout = __webpack_require__(7339);
 // EXTERNAL MODULE: ./src/components/Button/linkButton/linkButton.jsx
 var linkButton = __webpack_require__(1723);
 // EXTERNAL MODULE: ./node_modules/next/image.js
@@ -244,11 +242,9 @@ const FirstView = ()=>{
 
 // EXTERNAL MODULE: external "next/router"
 var router_ = __webpack_require__(1853);
-// EXTERNAL MODULE: ./src/pages/_app.js
-var _app = __webpack_require__(2730);
+// EXTERNAL MODULE: ./src/pages/_app.js + 3 modules
+var _app = __webpack_require__(4126);
 ;// CONCATENATED MODULE: ./src/pages/index.js
-
-
 
 
 
@@ -624,7 +620,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [210,121,675,676,664,730,953], () => (__webpack_exec__(8559)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,676,664,121,675,126,953], () => (__webpack_exec__(8559)));
 module.exports = __webpack_exports__;
 
 })();

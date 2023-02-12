@@ -5,28 +5,6 @@ exports.id = 99;
 exports.ids = [99,888];
 exports.modules = {
 
-/***/ 7678:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Oj": () => (/* binding */ getRandomNumWithIn),
-/* harmony export */   "pW": () => (/* binding */ UpdateToNextIndex)
-/* harmony export */ });
-/* unused harmony exports updatePlayerIndexToNext, getNextUrl */
-const updatePlayerIndexToNext = (playerIndex, numPlayer)=>{
-    if (playerIndex == numPlayer - 1) return 0;
-    else return playerIndex + 1;
-};
-const getRandomNumWithIn = (max)=>Math.floor(Math.random() * max + 1);
-const UpdateToNextIndex = (index, numPlayer)=>{
-    if (index == numPlayer - 1) return 0;
-    else return index + 1;
-};
-const getNextUrl = (mark, num)=>`/game/${mark}/${num}`;
-
-
-/***/ }),
-
 /***/ 4254:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -38,18 +16,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Description_description__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3528);
-/* harmony import */ var _components_Layout_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7339);
-/* harmony import */ var _pages_app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2730);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1853);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var helper_game__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7678);
-
-
+/* harmony import */ var _components_Description_description__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7195);
+/* harmony import */ var _pages_app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4126);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1853);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var helper_game__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7678);
 
 
 
@@ -58,8 +31,8 @@ __webpack_require__.r(__webpack_exports__);
 
 // NOTE: Static Renderingの値（message）
 const SpadeDescription = ({ card  })=>{
-    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_5__.useRouter)();
-    const gameInfo = (0,react__WEBPACK_IMPORTED_MODULE_6__.useContext)(_pages_app__WEBPACK_IMPORTED_MODULE_3__.GameInfo);
+    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_3__.useRouter)();
+    const gameInfo = (0,react__WEBPACK_IMPORTED_MODULE_4__.useContext)(_pages_app__WEBPACK_IMPORTED_MODULE_2__.GameInfo);
     const num = router.query.num;
     const mark = router.pathname.split("/")[2];
     const clickHandler = ()=>{
@@ -69,7 +42,7 @@ const SpadeDescription = ({ card  })=>{
         // ローカルの値をフォーマット
         let cards = JSON.parse(cardsJson);
         const maxIndex = cards.length - 1;
-        const randomIndex = (0,helper_game__WEBPACK_IMPORTED_MODULE_7__/* .getRandomNumWithIn */ .Oj)(maxIndex);
+        const randomIndex = (0,helper_game__WEBPACK_IMPORTED_MODULE_5__/* .getRandomNumWithIn */ .Oj)(maxIndex);
         console.log(randomIndex);
         const nextCardMark = cards[randomIndex].mark;
         const nextCardNum = cards[randomIndex].num;
@@ -78,7 +51,7 @@ const SpadeDescription = ({ card  })=>{
         gameInfo.setNumCards(cards.length - 1);
         router.push(nextCardUrl);
     };
-    (0,react__WEBPACK_IMPORTED_MODULE_6__.useEffect)(()=>{
+    (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(()=>{
         // ローカルの値を取得
         const cardsJson = localStorage.getItem("cards");
         // ローカルの値をフォーマット
@@ -159,20 +132,6 @@ module.exports = require("@mui/system");
 
 /***/ }),
 
-/***/ 3918:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/amp-context.js");
-
-/***/ }),
-
-/***/ 5732:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/amp-mode.js");
-
-/***/ }),
-
 /***/ 3280:
 /***/ ((module) => {
 
@@ -191,34 +150,6 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
-
-/***/ }),
-
-/***/ 4486:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-blur-svg.js");
-
-/***/ }),
-
-/***/ 744:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-config-context.js");
-
-/***/ }),
-
-/***/ 5843:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-config.js");
-
-/***/ }),
-
-/***/ 9552:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
@@ -362,24 +293,10 @@ module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
 
 /***/ }),
 
-/***/ 2470:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/side-effect.js");
-
-/***/ }),
-
 /***/ 9232:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/utils.js");
-
-/***/ }),
-
-/***/ 618:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
@@ -425,7 +342,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [210,121,675,676,664,730,953,528], () => (__webpack_exec__(4254)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,676,664,126,953,654], () => (__webpack_exec__(4254)));
 module.exports = __webpack_exports__;
 
 })();

@@ -5,55 +5,24 @@ exports.id = 381;
 exports.ids = [381,888];
 exports.modules = {
 
-/***/ 4897:
+/***/ 9091:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _num_description),
-  "getStaticPaths": () => (/* binding */ getStaticPaths),
-  "getStaticProps": () => (/* binding */ getStaticProps)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./src/components/Description/description.jsx
-var description = __webpack_require__(3528);
-// EXTERNAL MODULE: ./src/components/Card/card.jsx
-var card = __webpack_require__(2343);
-// EXTERNAL MODULE: ./src/components/Button/NextButton/nextButton.jsx
-var nextButton = __webpack_require__(2860);
-// EXTERNAL MODULE: ./src/components/StatusDisplay/StatusDisplay.jsx + 4 modules
-var StatusDisplay = __webpack_require__(6542);
-;// CONCATENATED MODULE: ./src/components/Game/game.jsx
-
-
-
-
-
-function Game(props) {
-    return /*#__PURE__*/ _jsx(_Fragment, {});
-}
-
-// EXTERNAL MODULE: ./src/components/Layout/layout.jsx + 2 modules
-var layout = __webpack_require__(7339);
-// EXTERNAL MODULE: ./src/pages/_app.js
-var _app = __webpack_require__(2730);
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(5675);
-// EXTERNAL MODULE: external "next/router"
-var router_ = __webpack_require__(1853);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./helper/game.js
-var game = __webpack_require__(7678);
-;// CONCATENATED MODULE: ./src/pages/game/diamond/[num]/description.js
-
-
-
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "getStaticPaths": () => (/* binding */ getStaticPaths),
+/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Description_description__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7195);
+/* harmony import */ var _pages_app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4126);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1853);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var helper_game__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(7678);
 
 
 
@@ -62,8 +31,8 @@ var game = __webpack_require__(7678);
 
 // NOTE: Static Renderingの値（message）
 const DiamondDescription = ({ card  })=>{
-    const router = (0,router_.useRouter)();
-    const gameInfo = (0,external_react_.useContext)(_app.GameInfo);
+    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_3__.useRouter)();
+    const gameInfo = (0,react__WEBPACK_IMPORTED_MODULE_4__.useContext)(_pages_app__WEBPACK_IMPORTED_MODULE_2__.GameInfo);
     const num = router.query.num;
     const mark = router.pathname.split("/")[2];
     const clickHandler = ()=>{
@@ -73,7 +42,7 @@ const DiamondDescription = ({ card  })=>{
         // ローカルの値をフォーマット
         let cards = JSON.parse(cardsJson);
         const maxIndex = cards.length - 1;
-        const randomIndex = (0,game/* getRandomNumWithIn */.Oj)(maxIndex);
+        const randomIndex = (0,helper_game__WEBPACK_IMPORTED_MODULE_5__/* .getRandomNumWithIn */ .Oj)(maxIndex);
         const nextCardMark = cards[randomIndex].mark;
         const nextCardNum = cards[randomIndex].num;
         if (nextCardNum == 13 && nextCardMark !== "joker") gameInfo.setNumKings((prev)=>prev + 1);
@@ -81,7 +50,7 @@ const DiamondDescription = ({ card  })=>{
         gameInfo.setNumCards(cards.length - 1);
         router.push(nextCardUrl);
     };
-    (0,external_react_.useEffect)(()=>{
+    (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(()=>{
         // ローカルの値を取得
         const cardsJson = localStorage.getItem("cards");
         // ローカルの値をフォーマット
@@ -98,15 +67,15 @@ const DiamondDescription = ({ card  })=>{
             if (gameInfo.numKings == 4) router.push("/game/over");
         };
     }, []);
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(description/* Description */.d, {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Description_description__WEBPACK_IMPORTED_MODULE_1__/* .Description */ .d, {
             emoji: card["emoji"],
             description: card["description"],
             onClick: clickHandler
         })
     });
 };
-/* harmony default export */ const _num_description = (DiamondDescription);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DiamondDescription);
 async function getStaticPaths() {
     const { cards  } = await __webpack_require__.e(/* import() */ 19).then(__webpack_require__.t.bind(__webpack_require__, 8019, 19));
     const diamondCards = cards.filter((card)=>card.mark == "diamond");
@@ -162,20 +131,6 @@ module.exports = require("@mui/system");
 
 /***/ }),
 
-/***/ 3918:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/amp-context.js");
-
-/***/ }),
-
-/***/ 5732:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/amp-mode.js");
-
-/***/ }),
-
 /***/ 3280:
 /***/ ((module) => {
 
@@ -194,34 +149,6 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
-
-/***/ }),
-
-/***/ 4486:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-blur-svg.js");
-
-/***/ }),
-
-/***/ 744:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-config-context.js");
-
-/***/ }),
-
-/***/ 5843:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-config.js");
-
-/***/ }),
-
-/***/ 9552:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
@@ -365,24 +292,10 @@ module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
 
 /***/ }),
 
-/***/ 2470:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/side-effect.js");
-
-/***/ }),
-
 /***/ 9232:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/utils.js");
-
-/***/ }),
-
-/***/ 618:
-/***/ ((module) => {
-
-module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
@@ -428,7 +341,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [210,121,675,676,664,730,953,981,528], () => (__webpack_exec__(4897)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,676,664,126,953,654], () => (__webpack_exec__(9091)));
 module.exports = __webpack_exports__;
 
 })();
