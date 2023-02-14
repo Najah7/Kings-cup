@@ -24,12 +24,18 @@ const players = () => {
   // 次のURLを作成
   const nextUrl = `/game/${marks[randomIndex]}/${randomNum}`
 
-  // ドローしたカードが13の時のゲーム情報のキングの数を更新（インクリメント）
-  if (randomNum == 13) gameInfo.setNumKings(prev => prev + 1)
+  
 
   // コンテキストのゲームの情報のplayerの値を更新（追加されるたびに）
   useEffect(() => gameInfo.setPlayers(playerList), [playerList])
   
+  useEffect(() => {
+    return () => {
+      // ドローしたカードが13の時のゲーム情報のキングの数を更新（インクリメント）
+      if (randomNum == 13) gameInfo.setNumKings(prev => prev + 1)
+
+    }
+  },[])
 
   
 

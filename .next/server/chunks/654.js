@@ -60,9 +60,8 @@ var SimpleButton_button = __webpack_require__(6953);
 function NextButton(props) {
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ jsx_runtime_.jsx(SimpleButton_button/* Button */.z, {
-            text: "Next",
             onClick: props.onClick,
-            children: "start"
+            children: "Next"
         })
     });
 }

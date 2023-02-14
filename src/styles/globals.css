@@ -27,7 +27,14 @@ main {
 
 
 @media screen and (max-width:600px) {
-  main {
+
+  
+  
+  #__next {
+    width: 100%;
+  }
+
+  main{
     width: 100%;
   }
 
