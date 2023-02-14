@@ -1,11 +1,8 @@
 # Kings cup
-Project for Final Project of CS50
+Final Project of CS50
 
 # Link
 [Kings cup](https://kings-cup-two.vercel.app/)
-
-# Demonstration
-https://www.youtube.com/embed/NKrSDzT5ZwY
 
 # Kings Cupのルール
 
