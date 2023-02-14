@@ -6,7 +6,7 @@ Project for Final Project of CS50
 
 # Demonstration
 <video width="320" height="240" controls>
-  <source src="./public/kings_cup_short_movie.mp4" type="video/mp4">
+  <source src="https://youtu.be/NKrSDzT5ZwY" type="video/mp4">
 </video>
 
 <br>
