@@ -5,7 +5,7 @@ Project for Final Project of CS50
 [Kings cup](https://kings-cup-two.vercel.app/)
 
 # Demonstration
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NKrSDzT5ZwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://www.youtube.com/embed/NKrSDzT5ZwY
 
 # Kings Cupのルール
 
