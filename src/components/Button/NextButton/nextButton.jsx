@@ -4,8 +4,8 @@ export function NextButton(props){
 
     return (
         <>
-            <Button text='Next'  onClick={props.onClick}>
-                start
+            <Button  onClick={props.onClick}>
+                Next
             </Button>
         </>
     )

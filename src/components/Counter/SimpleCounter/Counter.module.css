@@ -16,3 +16,13 @@
    padding: 2 px 10px 3px;
    border-radius: 15px; 
 }
+
+@media screen and (max-width:600px) {
+
+    .h2 {
+        font-size: 22px;
+    }
+  
+  
+   
+  }

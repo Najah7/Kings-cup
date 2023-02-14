@@ -1,7 +1,10 @@
 .link{
-    display: block;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
     width: 100%;
     color:black;
     text-decoration: none;
+    border-radius: 15px;
   }
