@@ -1,5 +1,4 @@
 # Kings Cup
-Final Project of CS50
 
 # このレポジトリについて
 CODEGYM Academyというプログラミングスクールで取り組んだ[CS50](https://cs50.jp/)の最終課題の個人開発で作成したゲーム。<br>
@@ -8,7 +7,7 @@ CODEGYM Academyというプログラミングスクールで取り組んだ[CS50
 ※最初から最後まで想定された動作をする場合のみをサポート（途中でリロードしたりした場合などはサポートしていない。）
 
 # デプロイ先のURL
-[Kings cup](https://kings-cup-two.vercel.app/)
+[Kings cup](https://kings-cup-two.vercel.app/)<br>
 ※無料のホスティングサービスを使っているので、画像の描画は遅いです。
 
 # Kings Cupのルール
